@@ -1,7 +1,72 @@
-body{
-  padding-top:80px;
-  word-wrap:break-word;
+@font-face {
+  font-family: myFirstFont;
+  src: url(wefont.ttf);
 }
-img{
-  height: 200px;
+body{
+  margin: auto;
+  text-align: center;
+}
+
+.fa-trash::before{
+  content: "\f014"
+}
+
+.fa-heart::before{
+  content: "\f004"
+}
+h1{
+  font-family: myFirstFont;
+  font-size: 60px;
+  background-color: white;
+}
+h3{
+  font-size: 36px;
+}
+
+h3{
+  margin-top: 40px;
+}
+
+.listed{
+  background-color: rgb(207, 233, 196, .50);
+}
+
+form{
+  padding-bottom: 3000px;
+  width: 25%;
+  margin: auto;
+}
+ul{
+  margin-top: 25px;
+}
+li{
+
+  width: 466px;
+  float: left;
+  padding-top: 10px;
+  font-size: 30px;
+  background-color: lightpink;
+  margin: 3px;
+  color: white;
+  height: 300px;
+  border: 5px solid hotpink;
+  border-radius: 25px;
+  text-align: left;
+}
+li span{
+  padding: 85px;
+}
+input{
+  font-size: 20px;
+  margin: 10px;
+}
+button{
+  width: 130px;
+  height: 30px;
+}
+.text-center{
+  height: 266px;
+}
+.container{
+  width: 100%;
 }
